@@ -1,0 +1,27 @@
+.navbar-list li a.about-me {
+    font-size: 20px;
+  }
+
+  .navbar-list li a.audition {
+    font-size: 20px;
+  }
+
+  .navbar-list li a.home {
+    font-size: 20px;
+  }
+
+  ul.navbar-list li {
+    display: inline;
+    text-decoration: none;
+    margin-right: 30px; /* Add margin between list items if needed */
+    cursor: pointer;
+  }
+  
+  ul.navbar-list li a {
+    text-decoration: none;
+    color: inherit; /* Inherit text color from the parent */
+  }
+
+  .navbar-list li a:hover {
+    color: white; /* Change the color on hover */
+  }

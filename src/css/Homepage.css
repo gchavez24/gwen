@@ -1,0 +1,47 @@
+/* src/components/Homepage.css */
+.profile-picture {
+  max-width: 100%;
+  height: 300px;
+  width: 300px;
+  border-radius: 25px;
+  margin-left: 30px;
+}
+
+h1.homepage {
+  margin-left: 30px;
+}
+
+ul.navbar-list {
+  list-style-type: none;
+}
+
+div.profile-details {
+  margin-left: 30px;
+}
+
+div.profile-details p {
+  margin-left: 0;
+}
+
+section.recent-news {
+  margin-right: 2.5%;
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 10px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+div.home {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .div.home {
+    flex: 100%; /* Full width on small screens */
+    margin-bottom: 15px;
+  }
+}
+
+
