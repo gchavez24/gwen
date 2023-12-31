@@ -39,7 +39,7 @@ div.home {
 
 @media (max-width: 768px) {
   .div.home {
-    flex: 100%; /* Full width on small screens */
+    flex: 100%;
     margin-bottom: 15px;
   }
 }
