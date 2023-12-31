@@ -28,7 +28,7 @@ function Homepage() {
             </li>
             <li>
               <h3>Break-up with Joh</h3>
-              <p>He wasn't even cute, cheated, now he's with her clone</p>
+              <p>He wasn't even cute, cheated, new girl doesn't even want him anymore</p>
             </li>
           </ul>
         </div>

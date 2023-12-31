@@ -1,0 +1,3 @@
+[submodule "gwen-portfolio"]
+	path = gwen-portfolio
+	url = https://github.com/gchavez24/gwen-portfolio.git

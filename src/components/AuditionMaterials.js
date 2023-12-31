@@ -9,8 +9,8 @@ function AuditionMaterials() {
       <ReactPlayer
         url="/videos/gwen-stuce.mp4"
         controls={true}
-        width="500px"
-        height="500px"
+        width="800px"
+        height="800px"
       />
     </div>
   );
