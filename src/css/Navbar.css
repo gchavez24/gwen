@@ -25,3 +25,22 @@
   .navbar-list li a:hover {
     color: white; /* Change the color on hover */
   }
+
+  .navbar-list {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  @media (max-width: 768px) {
+    .navbar-list {
+      flex-direction: row;
+    }
+  
+    .navbar-list li {
+      margin-bottom: 10px;
+    }
+  
+    .navbar-list li a {
+      font-size: 16px;
+    }
+  }
