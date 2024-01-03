@@ -11,9 +11,7 @@ function AboutMe() {
       <div className="text-container">
         <h2>About Me</h2>
         <p>
-        Gwen, a 21-year-old ballerina from the vibrant borough of Brooklyn, New York, has brought her passion for dance to the heart of St. Louis, Missouri. Currently performing with the St. Louis Ballet, her stage presence is known for captivating audiences with precision and artistry. Gwen's dance journey began in Brooklyn, where she developed and refined her skills at renowned institutions such as Ballet Academy East.
-
-She then moved on to the prestigious Pacific Northwest Ballet PD Program, and later performed with the Kansas City Ballet. Beyond the dance world, Gwen is currently pursuing her degree in healthcare, with the aim of becoming a physical therapist so she can treat ballet dancers such as herself. Gwen combines her firsthand knowledge of the demands of dance with a compassionate commitment to the health and longevity of her fellow dancers. As she continues to showcase her artistry on stage, Gwen stands poised to make enduring contributions to the world of ballet.
+        As a student at Ballet Academy East, I performed corps and solo work including Lilac Fairy from Petipa’s Sleeping Beauty and Balanchine’s Elegie. I also gained choreographic experience, creating my own work that was performed by my peers. At Pacific Northwest Ballet, I have performed in Balanchine’s Nutcracker and multiple New Works by PNB company members. While at Kansas City Ballet, I performed in Devon Carney’s Giselle, The Nutcracker, and Cinderella, and Mark Morris' Sandpaper. As well, I had the pleasure of working with Ana Maria Lucaciu on Alexander Eckman's Cacti. With Saint Louis Ballet, I have performed in Gen Horiuchi’s Giselle and The Nutcracker. I am looking forward to our mixed rep in February consisting of Square Dance by Balanchine, In Reel Time by Brian Enos, and St. Louis Blues by Mr. Horiuchi, as well as Sleeping Beauty (Horiuchi) in the spring.               
         </p>
       </div>
     </div></>

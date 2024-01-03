@@ -1,0 +1,23 @@
+.menu-ul {
+  list-style-type: none;
+  position: absolute;
+  font-size: 20px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background-color: #fff; /* Set background color */
+  padding: 10px; /* Add padding for a cleaner look */
+  border-radius: 5px; /* Add border radius for rounded corners */
+
+}
+
+.menu-ul li {
+  border-top: solid rgb(192, 190, 190);
+  padding: 10px;
+}
+
+#class {
+  border-bottom: 1px solid rgb(192, 190, 190);
+}
+
+.dropdown-menu div {
+    font-size: 20px;
+}

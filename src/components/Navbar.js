@@ -2,6 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../css/Navbar.css';
+import Dropdown from './Dropdown';
 
 function Navbar() {
   return (
@@ -13,9 +14,7 @@ function Navbar() {
         <li>
           <Link to="/AboutMe" className="about-me">About Me</Link>
         </li>
-        <li>
-          <Link to="/AuditionMaterials" className="audition">Audition Materials</Link>
-        </li>
+        <Dropdown />
       </ul>
     </nav>
   );
