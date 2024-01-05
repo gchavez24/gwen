@@ -21,7 +21,7 @@ function PerformanceVar () {
             </ul>
         </nav><div>
                 <ReactPlayer
-                    url="/videos/perf-footage.m4v"
+                    url="/videos/PERF.mp4"
                     controls={true}
                     width="600px"
                     height="600px" />
