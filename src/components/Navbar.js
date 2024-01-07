@@ -14,6 +14,9 @@ function Navbar() {
         <li>
           <Link to="/AboutMe" className="about-me">About Me</Link>
         </li>
+        <li>
+          <Link to="/Resume" className="resume">Resume/CV</Link>
+        </li>
         <Dropdown />
       </ul>
     </nav>

@@ -2,16 +2,15 @@
     font-size: 20px;
   }
 
-  .navbar-list li a.audition {
+  .navbar-list li a.home {
     font-size: 20px;
   }
-
-  .navbar-list li a.home {
+  
+  .navbar-list li a.resume {
     font-size: 20px;
   }
 
   ul.navbar-list li {
-    /* display: inline; */
     text-decoration: none;
     margin-right: 30px;
     cursor: pointer;
@@ -29,6 +28,7 @@
   .navbar-list {
     display: flex;
     flex-wrap: nowrap;
+    margin-left: 20px;
   }
 
   @media (max-width: 768px) {

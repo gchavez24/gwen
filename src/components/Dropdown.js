@@ -17,8 +17,8 @@ function Dropdown () {
                 <div>AuditionMaterials</div>         
                 {state ?(                
                 <ul className= "menu-ul" onMouseEnter={showDropdown}>
-                    <li><Link to="/AuditionMaterials/PerformanceVar" className="peformance">Performance and Variations</Link></li>
-                    <li id="class"><Link to="/AuditionMaterials/ClassFootage" className="class">Class</Link></li>
+                    <li><Link to="/PerformanceVar" className="peformance">Performance and Variations</Link></li>
+                    <li id="class"><Link to="/ClassFootage" className="class">Class</Link></li>
                 </ul>):null}
             </div>
         </div>

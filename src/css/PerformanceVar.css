@@ -1,5 +1,41 @@
+/* PerformanceVar.css */ 
+/* Style for the main container */
+.player-container {
+  max-width: 800px; /* Limit the maximum width of the container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px;
+  display: grid; /* Use grid layout */
+  grid-template-columns: 1fr; /* Single column by default */
+  gap: 20px; /* Add some gap between elements */
+}
+
+/* Style for the ReactPlayer component */
+.player {
+  width: 100%; /* Take up 100% of the width within the grid item */
+  height: 0;
+  padding-bottom: 75%; /* Maintain a 4:3 aspect ratio for the video */
+  position: relative;
+}
+
+/* Style for the list of timestops */
+ul.timestops {
+  text-align: right;
+  list-style-type: none; /* Remove default list styling */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* Style for individual timestop items */
 ul.timestops li {
-    display: inline;
-    margin-right: 30px;
-    text-size-adjust: 10px;
+  margin-bottom: 10px; /* Add spacing between items */
+  font-size: 14px; /* Set a reasonable font size */
+  line-height: 1.5; /* Improve line spacing for better readability */
+}
+
+/* Media query for responsiveness */
+@media (min-width: 768px) {
+  /* Adjust grid layout for larger screens */
+  .player-container {
+    grid-template-columns: 1fr 1fr; /* Two columns for larger screens */
   }
+}

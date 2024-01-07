@@ -1,0 +1,67 @@
+/* Resume.css */
+
+.resume-picture {
+    padding: 10px;
+    height: 200px;
+    width: 150px;
+    border-radius: 10px; /* Add border radius for a rounded image */
+    object-fit: cover; /* Ensure the image maintains its aspect ratio and covers the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+  }
+  
+  .grid-1 {
+    /* Adjust styling for the left column */
+  }
+  
+  .grid-2 {
+    /* Adjust styling for the right column */
+  }
+  
+  header {
+    text-align: center; /* Center-align header content */
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+    font-size: 1.5em; /* Increase font size for the name */
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #333333; /* Add a border beneath section headings for separation */
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  
