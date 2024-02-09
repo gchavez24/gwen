@@ -19,16 +19,13 @@ function Homepage() {
         <div>
           <ul>
             <li>
-              <h3>Isaac Era</h3>
-              <p>Unexpected rizz, we love, treats her really well</p>
+              <h3>Nutcracker at St.Louis Ballet, 2023</h3>
             </li>
             <li>
-              <h3>Encounter with Isiah Pacheco</h3>
-              <p>"We gotta run it back"</p>
+              <h3>Joined St.Louis Ballet, 2023</h3>
             </li>
             <li>
-              <h3>Break-up with Joh</h3>
-              <p>He wasn't even cute, cheated, new girl doesn't even want him anymore</p>
+              <h3>Joined Kansas City Ballet, 2022</h3>
             </li>
           </ul>
         </div>
